@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	The FC function in Windows helped to find differences between the new and old
+	files by showing the lines that were different in the old file then in the new file
+	when a difference was found.  By searching through these differences, a bug can be
+	found very easily to look for typos.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I would be spending less time scanning through code to find bugs in a program.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Having versions automatically saved does not take into account when appropriate
+    parts of a fix have been completed since the automatic feature probably saves 
+    things within a specific amount of time.  Manually choosing allows better
+    organization of fixing typos and bugs in code when it is appropriate.  The
+    downsize of it is remembering to commit a version or knowing when it is best
+    to commit a version.  
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Many files are often related to each other.  You could have a python file with a lot
+    of csv files and other data files associated with it that are needed for the python 
+    code to execute properly.  Allowing multiple files to save in one commit will keep all 
+    the files necessary to execute the program successfully together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The log command can show what changes have occurred from one saved commit to another
+    including what the old code was and what the new code was. the git diff can show the 
+    differences between the versions to find typos and other bugs.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I would know that if I am going to make drastic changes to a piece of code, I will 
+    have control over the different commits in the file and 
+    back to them if the new program I am working on crashes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    The ability to complete the projects within the Data Scientist Nanodegree program.
